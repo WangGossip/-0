@@ -1,0 +1,17 @@
+E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\WindowsForms_Word_To_Excel.exe.config
+E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\WindowsForms_Word_To_Excel.exe
+E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\WindowsForms_Word_To_Excel.pdb
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.csprojAssemblyReference.cache
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.Form1.resources
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.Properties.Resources.resources
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.csproj.GenerateResource.cache
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.exe
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.pdb
+E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\NPOI.dll
+E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\NPOI.OOXML.dll
+E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\NPOI.OpenXml4Net.dll
+E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\NPOI.OpenXmlFormats.dll
+E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\ICSharpCode.SharpZipLib.pdb
+E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\ICSharpCode.SharpZipLib.xml
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.csproj.CopyComplete
