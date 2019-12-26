@@ -1,7 +1,6 @@
 E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\WindowsForms_Word_To_Excel.exe.config
 E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\WindowsForms_Word_To_Excel.exe
 E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\WindowsForms_Word_To_Excel.pdb
-E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.csprojAssemblyReference.cache
 E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.Form1.resources
 E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.Properties.Resources.resources
 E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.csproj.GenerateResource.cache
@@ -15,3 +14,10 @@ E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\NPOI.OpenXmlFormats.dll
 E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\ICSharpCode.SharpZipLib.pdb
 E:\兼职\资产处\WindowsForms_Word_To_Excel\bin\Debug\ICSharpCode.SharpZipLib.xml
 E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.csproj.CopyComplete
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\Interop.AddInDesignerObjects.dll
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\Interop.Excel.dll
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\Interop.Office.dll
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\Interop.PowerPoint.dll
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\Interop.Word.dll
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\Interop.WpsApiEx.dll
+E:\兼职\资产处\WindowsForms_Word_To_Excel\obj\Debug\WindowsForms_Word_To_Excel.csproj.ResolveComReference.cache
