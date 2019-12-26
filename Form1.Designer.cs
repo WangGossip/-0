@@ -31,7 +31,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.使用帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.导入文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.选择退休告知时间ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.选择保存路径ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.选择文件模板ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.开始ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
@@ -43,9 +45,22 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.选择文件模板ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.使用wps格式ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,12 +70,14 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.使用帮助ToolStripMenuItem,
             this.导入文件ToolStripMenuItem,
+            this.选择退休告知时间ToolStripMenuItem,
             this.选择保存路径ToolStripMenuItem,
             this.选择文件模板ToolStripMenuItem,
+            this.使用wps格式ToolStripMenuItem,
             this.开始ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(934, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(934, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -69,13 +86,21 @@
             this.使用帮助ToolStripMenuItem.Name = "使用帮助ToolStripMenuItem";
             this.使用帮助ToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
             this.使用帮助ToolStripMenuItem.Text = "使用帮助";
+            this.使用帮助ToolStripMenuItem.Click += new System.EventHandler(this.使用帮助ToolStripMenuItem_Click);
             // 
             // 导入文件ToolStripMenuItem
             // 
             this.导入文件ToolStripMenuItem.Name = "导入文件ToolStripMenuItem";
-            this.导入文件ToolStripMenuItem.Size = new System.Drawing.Size(113, 24);
-            this.导入文件ToolStripMenuItem.Text = "选择输入文件";
+            this.导入文件ToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
+            this.导入文件ToolStripMenuItem.Text = "选择退休人员名单";
             this.导入文件ToolStripMenuItem.Click += new System.EventHandler(this.导入文件ToolStripMenuItem_Click);
+            // 
+            // 选择退休告知时间ToolStripMenuItem
+            // 
+            this.选择退休告知时间ToolStripMenuItem.Name = "选择退休告知时间ToolStripMenuItem";
+            this.选择退休告知时间ToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
+            this.选择退休告知时间ToolStripMenuItem.Text = "选择递交材料时间";
+            this.选择退休告知时间ToolStripMenuItem.Click += new System.EventHandler(this.选择退休告知时间ToolStripMenuItem_Click);
             // 
             // 选择保存路径ToolStripMenuItem
             // 
@@ -83,6 +108,13 @@
             this.选择保存路径ToolStripMenuItem.Size = new System.Drawing.Size(113, 24);
             this.选择保存路径ToolStripMenuItem.Text = "选择保存路径";
             this.选择保存路径ToolStripMenuItem.Click += new System.EventHandler(this.选择保存路径ToolStripMenuItem_Click);
+            // 
+            // 选择文件模板ToolStripMenuItem
+            // 
+            this.选择文件模板ToolStripMenuItem.Name = "选择文件模板ToolStripMenuItem";
+            this.选择文件模板ToolStripMenuItem.Size = new System.Drawing.Size(113, 24);
+            this.选择文件模板ToolStripMenuItem.Text = "选择文件模板";
+            this.选择文件模板ToolStripMenuItem.Click += new System.EventHandler(this.选择文件模板ToolStripMenuItem_Click);
             // 
             // 开始ToolStripMenuItem
             // 
@@ -94,11 +126,12 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.Location = new System.Drawing.Point(12, 73);
+            this.textBox1.Location = new System.Drawing.Point(12, 132);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(264, 335);
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox1.Size = new System.Drawing.Size(264, 276);
             this.textBox1.TabIndex = 1;
             this.textBox1.TabStop = false;
             // 
@@ -124,7 +157,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(493, 77);
+            this.textBox2.Location = new System.Drawing.Point(438, 259);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 25);
             this.textBox2.TabIndex = 4;
@@ -132,11 +165,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(334, 80);
+            this.label3.Location = new System.Drawing.Point(365, 262);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(142, 15);
+            this.label3.Size = new System.Drawing.Size(67, 15);
             this.label3.TabIndex = 5;
-            this.label3.Text = "在这里输入文件名：";
+            this.label3.Text = "文件名：";
             // 
             // label4
             // 
@@ -152,14 +185,14 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(16, 28);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(172, 15);
+            this.label5.Size = new System.Drawing.Size(202, 15);
             this.label5.TabIndex = 7;
-            this.label5.Text = "当前选择的输入文件为：";
+            this.label5.Text = "当前选择的退休人员名单为：";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(16, 55);
+            this.label6.Location = new System.Drawing.Point(16, 54);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(187, 15);
             this.label6.TabIndex = 8;
@@ -173,17 +206,10 @@
             this.label7.Size = new System.Drawing.Size(0, 15);
             this.label7.TabIndex = 9;
             // 
-            // 选择文件模板ToolStripMenuItem
-            // 
-            this.选择文件模板ToolStripMenuItem.Name = "选择文件模板ToolStripMenuItem";
-            this.选择文件模板ToolStripMenuItem.Size = new System.Drawing.Size(113, 24);
-            this.选择文件模板ToolStripMenuItem.Text = "选择文件模板";
-            this.选择文件模板ToolStripMenuItem.Click += new System.EventHandler(this.选择文件模板ToolStripMenuItem_Click);
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(490, 30);
+            this.label8.Location = new System.Drawing.Point(16, 100);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(172, 15);
             this.label8.TabIndex = 10;
@@ -192,16 +218,154 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(686, 29);
+            this.label9.Location = new System.Drawing.Point(188, 100);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(0, 15);
             this.label9.TabIndex = 11;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(350, 158);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(82, 15);
+            this.label10.TabIndex = 12;
+            this.label10.Text = "到龄年份：";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(438, 155);
+            this.textBox3.MaxLength = 4;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 25);
+            this.textBox3.TabIndex = 13;
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(804, 100);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(67, 15);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "使用说明";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(651, 207);
+            this.textBox14.MaxLength = 2;
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(44, 25);
+            this.textBox14.TabIndex = 45;
+            this.textBox14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox5_KeyPress);
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(573, 206);
+            this.textBox15.MaxLength = 2;
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(44, 25);
+            this.textBox15.TabIndex = 44;
+            this.textBox15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox5_KeyPress);
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(438, 206);
+            this.textBox16.MaxLength = 4;
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(100, 25);
+            this.textBox16.TabIndex = 43;
+            this.textBox16.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(702, 209);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(22, 15);
+            this.label26.TabIndex = 42;
+            this.label26.Text = "日";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(623, 210);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(22, 15);
+            this.label27.TabIndex = 41;
+            this.label27.Text = "月";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(544, 210);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(22, 15);
+            this.label28.TabIndex = 40;
+            this.label28.Text = "年";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(320, 210);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(112, 15);
+            this.label29.TabIndex = 39;
+            this.label29.Text = "最后署名时间：";
+            // 
+            // textBox17
+            // 
+            this.textBox17.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox17.Location = new System.Drawing.Point(752, 132);
+            this.textBox17.Multiline = true;
+            this.textBox17.Name = "textBox17";
+            this.textBox17.ReadOnly = true;
+            this.textBox17.Size = new System.Drawing.Size(170, 294);
+            this.textBox17.TabIndex = 46;
+            this.textBox17.TabStop = false;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(16, 76);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(202, 15);
+            this.label30.TabIndex = 47;
+            this.label30.Text = "当前选择的材料递交时间为：";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(213, 76);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(0, 15);
+            this.label31.TabIndex = 48;
+            // 
+            // 使用wps格式ToolStripMenuItem
+            // 
+            this.使用wps格式ToolStripMenuItem.Name = "使用wps格式ToolStripMenuItem";
+            this.使用wps格式ToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
+            this.使用wps格式ToolStripMenuItem.Text = "使用wps格式";
+            this.使用wps格式ToolStripMenuItem.Click += new System.EventHandler(this.使用wps格式ToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(934, 450);
+            this.Controls.Add(this.label31);
+            this.Controls.Add(this.label30);
+            this.Controls.Add(this.textBox17);
+            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.textBox16);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -245,6 +409,21 @@
         private System.Windows.Forms.ToolStripMenuItem 选择文件模板ToolStripMenuItem;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.ToolStripMenuItem 选择退休告知时间ToolStripMenuItem;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.ToolStripMenuItem 使用wps格式ToolStripMenuItem;
     }
 }
 
